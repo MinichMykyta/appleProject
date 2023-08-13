@@ -1,0 +1,129 @@
+.dot-nav-container {
+    height: 36px;
+    display: flex;
+    position: relative;
+}
+
+.dot-nav {
+    margin: 15px 657px 15px 657px;
+    display: flex;
+    flex-direction: row;
+}
+
+.dot-link {
+    background-color: grey;
+    margin: 0 6px 0 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 20px;
+}
+
+.dot-link2 {
+    background-color: lightgrey;
+    width: 8px;
+    height: 8px;
+    border-radius: 20px;
+    margin: 0 6px 0 6px;
+}
+
+.dot-link2:hover {
+    transition: background-color 0.2s linear;
+    background-color: darkgrey;
+}
+
+.play-button2 {
+    width: 23px;
+    display: inline-block;
+    margin: 7px 0 0 1475px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.link1 {
+    color: #5e5e5e;
+}
+
+.directory-5column {
+    display: flex;
+    flex-direction: row;
+    margin: 0 280px 0 280px;
+    font-size: 12px;
+}
+
+.directory1 {
+    display: flex;
+    flex-direction: column;
+    width: 196px;
+}
+
+.head {
+    margin: 20px 0 12px 0;
+}
+
+.directory-section {
+    color: #5e5e5e;
+    text-decoration: none;
+    margin: 0 0 12px 0;
+}
+
+.directory-section:hover {
+    text-decoration: underline #ffffff 1.5px;
+}
+
+.directory-rows {
+    display: flex;
+    flex-direction: column;
+}
+
+.more-ways {
+    font-size: 12px;
+    font-weight: 300;
+    color: #424242;
+    line-height: 1.4;
+    margin: 30px 280px 0 280px;
+    display: block;
+    border-bottom: solid 2px #e0e0e0;
+    padding: 0 0 5px 0;
+}
+
+.foot-link {
+    font-size: 12px;
+    font-weight: 400;
+    color: #3397ff;
+}
+
+.off-information {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 280px 0 280px;
+}
+
+.apple-comp {
+    font-size: 12px;
+    word-spacing: 0.5px;
+    color: #5e5e5e;
+    line-height: 1.4;
+    margin: 3px 30px 0 0;
+}
+
+.info-links {
+}
+
+.info-link {
+    font-size: 12px;
+    color: #3f3f3f;
+    text-decoration: none;
+    padding: 0 13px 0 13px;
+    border-left: solid grey 1px;
+}
+
+.info-link:hover {
+    text-decoration: underline #3f3f3f 1px;
+}
+
+.US {
+    margin: 4px 0 0 143px;
+    font-size: 13px;
+    color: #3f3f3f;
+    text-decoration: none;
+}
